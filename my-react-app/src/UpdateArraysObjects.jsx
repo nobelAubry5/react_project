@@ -27,7 +27,7 @@ function UpdateArraysObjects() {
   }
   return (
     <div>
-      <h2>List of Car Objects</h2>
+      <h2>List of Car Objectss</h2>
       <ul>
         {cars.map((car, index) => (
           <li key={index} onClick={() => handleRemoveCar(index)}>
