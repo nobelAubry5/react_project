@@ -15,6 +15,7 @@ import UpdateCounter from "./UpdateCounter";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
 import UpdateArraysObjects from "./UpdateArraysObjects";
+import ToDoList from "./ToDoList";
 function App() {
   //Render Lists Chapter
   const fruits = [
@@ -70,6 +71,8 @@ function App() {
       <UpdateArrays />
       <hr />
       <UpdateArraysObjects />
+      <hr />
+      <ToDoList />
       <Footer />
     </>
   );
